@@ -1,3 +1,4 @@
+require("dotenv").config(); // Load environment variables from .env file
 const { Telegraf } = require("telegraf");
 const fs = require("fs");
 const path = "./userStats.json";
